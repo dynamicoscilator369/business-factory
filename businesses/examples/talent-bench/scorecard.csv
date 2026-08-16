@@ -1,0 +1,7 @@
+metric_key,goal,period,source_type,source_ref,owner_seat,notes
+integrator_seats_reporting_pct,100,weekly,computed,seat_health,Integrator,Percent of grunt seats reporting real data
+active_job_count,50,weekly,file,.state/job_count.txt,Scout,Written by pipeline after sync
+pipeline_runs_24h,1,daily,file,.state/pipeline_runs.txt,Scout,Incremented by company-kernel main.py after each pipeline
+deploy_success,1,weekly,manual,1,Publisher,Set 1 after successful deploy; 0 if failed
+turkey_posts_week,2,weekly,file,.state/posts_turkey_week.txt,Syndicator,Count TR forum posts this week
+outreach_posts_week,5,weekly,file,.state/syndicated.json,Syndicator,Optional aggregate post count

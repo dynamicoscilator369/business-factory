@@ -1,0 +1,20 @@
+{
+  "description": "Talent Bench Grok Bot org presets. Tier N = N bots in the swarm. You (human) sit above tier 3+ as apex approver.",
+  "projectRoot": "/Users/evansmacbookair/Projects/job-board/jobboard",
+  "humanRole": "Apex — approve spend, new channels, and tier upgrades",
+  "presets": [3, 5, 7, 9, 13, 21, 33, 42, 55, 69, 72, 88, 96, 111],
+  "tier3Note": "Minimal viable: you + Chief + 2 workers (Scout, Syndicator). Publisher duties rotate into Scout until tier 5.",
+  "departments": [
+    "command",
+    "intelligence",
+    "pipeline",
+    "publish",
+    "syndicate-turkey",
+    "syndicate-global",
+    "syndicate-music",
+    "social",
+    "qa",
+    "ops"
+  ],
+  "handoffChain": "intelligence → pipeline → publish → syndicate-* → social → qa → ops digest → you"
+}

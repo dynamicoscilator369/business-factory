@@ -1,0 +1,792 @@
+{
+  "tier": 96,
+  "botCount": 96,
+  "human": "apex approver (you)",
+  "tier3Layout": null,
+  "management": {
+    "layers": 6,
+    "you_plus": "you \u2192 command(3) \u2192 directors(4) \u2192 leads \u2192 96 total bots"
+  },
+  "departments": {
+    "command": 3,
+    "intelligence": 17,
+    "ops": 10,
+    "pipeline": 8,
+    "publish": 6,
+    "qa": 5,
+    "social": 13,
+    "syndicate-global": 12,
+    "syndicate-music": 9,
+    "syndicate-turkey": 13
+  },
+  "bots": [
+    {
+      "index": 0,
+      "id": "chief",
+      "title": "Chief Coordinator",
+      "dept": "command",
+      "reportsTo": "human (you)",
+      "briefFile": "generated/tier-096/agents/000-chief.md"
+    },
+    {
+      "index": 1,
+      "id": "scout",
+      "title": "Scout (Pipeline Runner)",
+      "dept": "pipeline",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-096/agents/001-scout.md"
+    },
+    {
+      "index": 2,
+      "id": "syndicator",
+      "title": "Syndicator (Global + Turkey)",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/002-syndicator.md"
+    },
+    {
+      "index": 3,
+      "id": "publisher",
+      "title": "Publisher (Deploy)",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/003-publisher.md"
+    },
+    {
+      "index": 4,
+      "id": "turkey-lead",
+      "title": "Turkey Syndicate Lead",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/004-turkey-lead.md"
+    },
+    {
+      "index": 5,
+      "id": "deputy-ops",
+      "title": "Deputy \u2014 Operations",
+      "dept": "command",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/005-deputy-ops.md"
+    },
+    {
+      "index": 6,
+      "id": "deputy-intel",
+      "title": "Deputy \u2014 Intelligence",
+      "dept": "command",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/006-deputy-intel.md"
+    },
+    {
+      "index": 7,
+      "id": "mercor-lead",
+      "title": "Mercor Scout Lead",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/007-mercor-lead.md"
+    },
+    {
+      "index": 8,
+      "id": "mercor-music",
+      "title": "Mercor Music Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/008-mercor-music.md"
+    },
+    {
+      "index": 9,
+      "id": "mercor-turkish",
+      "title": "Mercor Turkish Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/009-mercor-turkish.md"
+    },
+    {
+      "index": 10,
+      "id": "mercor-production",
+      "title": "Mercor Production Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/010-mercor-production.md"
+    },
+    {
+      "index": 11,
+      "id": "outlier-lead",
+      "title": "Outlier Scout Lead",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/011-outlier-lead.md"
+    },
+    {
+      "index": 12,
+      "id": "outlier-video",
+      "title": "Outlier Video Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/012-outlier-video.md"
+    },
+    {
+      "index": 13,
+      "id": "outlier-coding",
+      "title": "Outlier Coding Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/013-outlier-coding.md"
+    },
+    {
+      "index": 14,
+      "id": "da-lead",
+      "title": "DataAnnotation Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/014-da-lead.md"
+    },
+    {
+      "index": 15,
+      "id": "source-research",
+      "title": "New Source Researcher",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/015-source-research.md"
+    },
+    {
+      "index": 16,
+      "id": "competitor-watch",
+      "title": "Competitor Aggregator Watch",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/016-competitor-watch.md"
+    },
+    {
+      "index": 17,
+      "id": "rate-tracker",
+      "title": "Rate & Pay Tracker",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/017-rate-tracker.md"
+    },
+    {
+      "index": 18,
+      "id": "takedown-watch",
+      "title": "Takedown Watch",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/018-takedown-watch.md"
+    },
+    {
+      "index": 19,
+      "id": "sync-lead",
+      "title": "Sync Lead",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/019-sync-lead.md"
+    },
+    {
+      "index": 20,
+      "id": "sync-runner-2",
+      "title": "Sync Runner \u2014 Off-cycle",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/020-sync-runner-2.md"
+    },
+    {
+      "index": 21,
+      "id": "build-lead",
+      "title": "Build Lead",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/021-build-lead.md"
+    },
+    {
+      "index": 22,
+      "id": "validate-lead",
+      "title": "Validate Lead",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/022-validate-lead.md"
+    },
+    {
+      "index": 23,
+      "id": "handoff-writer",
+      "title": "Handoff Writer",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/023-handoff-writer.md"
+    },
+    {
+      "index": 24,
+      "id": "state-auditor",
+      "title": "State Auditor",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/024-state-auditor.md"
+    },
+    {
+      "index": 25,
+      "id": "pipeline-recovery",
+      "title": "Pipeline Recovery",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/025-pipeline-recovery.md"
+    },
+    {
+      "index": 26,
+      "id": "publish-lead",
+      "title": "Publish Director",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/026-publish-lead.md"
+    },
+    {
+      "index": 27,
+      "id": "sitemap",
+      "title": "Sitemap & Search Console",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/027-sitemap.md"
+    },
+    {
+      "index": 28,
+      "id": "seo-monitor",
+      "title": "SEO & Canonical Monitor",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/028-seo-monitor.md"
+    },
+    {
+      "index": 29,
+      "id": "deploy-staging",
+      "title": "Staging Preview",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/029-deploy-staging.md"
+    },
+    {
+      "index": 30,
+      "id": "cdn-cache",
+      "title": "CDN Cache Purge",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/030-cdn-cache.md"
+    },
+    {
+      "index": 31,
+      "id": "donanimhaber",
+      "title": "Donan\u0131mHaber Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/031-donanimhaber.md"
+    },
+    {
+      "index": 32,
+      "id": "technopat",
+      "title": "Technopat Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/032-technopat.md"
+    },
+    {
+      "index": 33,
+      "id": "eksisozluk",
+      "title": "Ek\u015fi S\u00f6zl\u00fck Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/033-eksisozluk.md"
+    },
+    {
+      "index": 34,
+      "id": "reddit-turkey",
+      "title": "r/Turkey Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/034-reddit-turkey.md"
+    },
+    {
+      "index": 35,
+      "id": "facebook-tr",
+      "title": "Facebook TR Producers",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/035-facebook-tr.md"
+    },
+    {
+      "index": 36,
+      "id": "instagram-tr",
+      "title": "Instagram TR Music",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/036-instagram-tr.md"
+    },
+    {
+      "index": 37,
+      "id": "tr-localizer",
+      "title": "TR Copy Localizer",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/037-tr-localizer.md"
+    },
+    {
+      "index": 38,
+      "id": "tr-reply",
+      "title": "TR Forum Reply Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/038-tr-reply.md"
+    },
+    {
+      "index": 39,
+      "id": "global-lead",
+      "title": "Global Syndicate Lead",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/039-global-lead.md"
+    },
+    {
+      "index": 40,
+      "id": "kvr",
+      "title": "KVR Audio Jobs Agent",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/040-kvr.md"
+    },
+    {
+      "index": 41,
+      "id": "vi-control",
+      "title": "VI-Control Agent",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/041-vi-control.md"
+    },
+    {
+      "index": 42,
+      "id": "gearspace",
+      "title": "Gearspace Agent",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/042-gearspace.md"
+    },
+    {
+      "index": 43,
+      "id": "reddit-remote",
+      "title": "Reddit r/remotework Agent",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/043-reddit-remote.md"
+    },
+    {
+      "index": 44,
+      "id": "reddit-flair",
+      "title": "Reddit Flair & Rules Checker",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/044-reddit-flair.md"
+    },
+    {
+      "index": 45,
+      "id": "discord-remote",
+      "title": "Discord Remote Communities",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/045-discord-remote.md"
+    },
+    {
+      "index": 46,
+      "id": "telegram-remote",
+      "title": "Telegram Remote Groups",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/046-telegram-remote.md"
+    },
+    {
+      "index": 47,
+      "id": "newsletter-scout",
+      "title": "Newsletter & Slack Scout",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/047-newsletter-scout.md"
+    },
+    {
+      "index": 48,
+      "id": "music-lead",
+      "title": "Music Vertical Lead",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/048-music-lead.md"
+    },
+    {
+      "index": 49,
+      "id": "social-lead",
+      "title": "Social Director",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/049-social-lead.md"
+    },
+    {
+      "index": 50,
+      "id": "postiz-runner",
+      "title": "Postiz Queue Runner",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/050-postiz-runner.md"
+    },
+    {
+      "index": 51,
+      "id": "x-poster",
+      "title": "X / Twitter Agent",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/051-x-poster.md"
+    },
+    {
+      "index": 52,
+      "id": "linkedin",
+      "title": "LinkedIn Feed Agent",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/052-linkedin.md"
+    },
+    {
+      "index": 53,
+      "id": "bluesky",
+      "title": "Bluesky Agent",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/053-bluesky.md"
+    },
+    {
+      "index": 54,
+      "id": "threads",
+      "title": "Threads Agent",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/054-threads.md"
+    },
+    {
+      "index": 55,
+      "id": "tiktok-caption",
+      "title": "TikTok Caption Agent",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/055-tiktok-caption.md"
+    },
+    {
+      "index": 56,
+      "id": "social-reply",
+      "title": "Social Reply Agent",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/056-social-reply.md"
+    },
+    {
+      "index": 57,
+      "id": "qa-lead",
+      "title": "QA Director",
+      "dept": "qa",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/057-qa-lead.md"
+    },
+    {
+      "index": 58,
+      "id": "link-checker",
+      "title": "Link Checker",
+      "dept": "qa",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/058-link-checker.md"
+    },
+    {
+      "index": 59,
+      "id": "duplicate-guard",
+      "title": "Duplicate Post Guard",
+      "dept": "qa",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/059-duplicate-guard.md"
+    },
+    {
+      "index": 60,
+      "id": "jsonld-spot",
+      "title": "JSON-LD Spot Check",
+      "dept": "qa",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/060-jsonld-spot.md"
+    },
+    {
+      "index": 61,
+      "id": "referral-check",
+      "title": "Referral URL Checker",
+      "dept": "qa",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/061-referral-check.md"
+    },
+    {
+      "index": 62,
+      "id": "digest-am",
+      "title": "Morning Digest Writer",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/062-digest-am.md"
+    },
+    {
+      "index": 63,
+      "id": "digest-pm",
+      "title": "Evening Digest Writer",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/063-digest-pm.md"
+    },
+    {
+      "index": 64,
+      "id": "incident",
+      "title": "Incident Commander",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/064-incident.md"
+    },
+    {
+      "index": 65,
+      "id": "handoff-router",
+      "title": "Handoff Router",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/065-handoff-router.md"
+    },
+    {
+      "index": 66,
+      "id": "routine-scheduler",
+      "title": "Routine Scheduler",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/066-routine-scheduler.md"
+    },
+    {
+      "index": 67,
+      "id": "config-patcher",
+      "title": "Config Patcher",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/067-config-patcher.md"
+    },
+    {
+      "index": 68,
+      "id": "backup-state",
+      "title": "State Backup Agent",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/068-backup-state.md"
+    },
+    {
+      "index": 69,
+      "id": "metrics",
+      "title": "Metrics & KPI Writer",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/069-metrics.md"
+    },
+    {
+      "index": 70,
+      "id": "onboard-bot",
+      "title": "Bot Onboarder",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/070-onboard-bot.md"
+    },
+    {
+      "index": 71,
+      "id": "org-maintainer",
+      "title": "Org Chart Maintainer",
+      "dept": "ops",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/071-org-maintainer.md"
+    },
+    {
+      "index": 72,
+      "id": "specialist-073",
+      "title": "Specialist #73 (social)",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/072-specialist-073.md"
+    },
+    {
+      "index": 73,
+      "id": "specialist-074",
+      "title": "Specialist #74 (intelligence)",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/073-specialist-074.md"
+    },
+    {
+      "index": 74,
+      "id": "specialist-075",
+      "title": "Specialist #75 (syndicate-global)",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/074-specialist-075.md"
+    },
+    {
+      "index": 75,
+      "id": "specialist-076",
+      "title": "Specialist #76 (syndicate-music)",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/075-specialist-076.md"
+    },
+    {
+      "index": 76,
+      "id": "specialist-077",
+      "title": "Specialist #77 (syndicate-turkey)",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/076-specialist-077.md"
+    },
+    {
+      "index": 77,
+      "id": "specialist-078",
+      "title": "Specialist #78 (social)",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/077-specialist-078.md"
+    },
+    {
+      "index": 78,
+      "id": "specialist-079",
+      "title": "Specialist #79 (intelligence)",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/078-specialist-079.md"
+    },
+    {
+      "index": 79,
+      "id": "specialist-080",
+      "title": "Specialist #80 (syndicate-global)",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/079-specialist-080.md"
+    },
+    {
+      "index": 80,
+      "id": "specialist-081",
+      "title": "Specialist #81 (syndicate-music)",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/080-specialist-081.md"
+    },
+    {
+      "index": 81,
+      "id": "specialist-082",
+      "title": "Specialist #82 (syndicate-turkey)",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/081-specialist-082.md"
+    },
+    {
+      "index": 82,
+      "id": "specialist-083",
+      "title": "Specialist #83 (social)",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/082-specialist-083.md"
+    },
+    {
+      "index": 83,
+      "id": "specialist-084",
+      "title": "Specialist #84 (intelligence)",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/083-specialist-084.md"
+    },
+    {
+      "index": 84,
+      "id": "specialist-085",
+      "title": "Specialist #85 (syndicate-global)",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/084-specialist-085.md"
+    },
+    {
+      "index": 85,
+      "id": "specialist-086",
+      "title": "Specialist #86 (syndicate-music)",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/085-specialist-086.md"
+    },
+    {
+      "index": 86,
+      "id": "specialist-087",
+      "title": "Specialist #87 (syndicate-turkey)",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/086-specialist-087.md"
+    },
+    {
+      "index": 87,
+      "id": "specialist-088",
+      "title": "Specialist #88 (social)",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/087-specialist-088.md"
+    },
+    {
+      "index": 88,
+      "id": "specialist-089",
+      "title": "Specialist #89 (intelligence)",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/088-specialist-089.md"
+    },
+    {
+      "index": 89,
+      "id": "specialist-090",
+      "title": "Specialist #90 (syndicate-global)",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/089-specialist-090.md"
+    },
+    {
+      "index": 90,
+      "id": "specialist-091",
+      "title": "Specialist #91 (syndicate-music)",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/090-specialist-091.md"
+    },
+    {
+      "index": 91,
+      "id": "specialist-092",
+      "title": "Specialist #92 (syndicate-turkey)",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/091-specialist-092.md"
+    },
+    {
+      "index": 92,
+      "id": "specialist-093",
+      "title": "Specialist #93 (social)",
+      "dept": "social",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/092-specialist-093.md"
+    },
+    {
+      "index": 93,
+      "id": "specialist-094",
+      "title": "Specialist #94 (intelligence)",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/093-specialist-094.md"
+    },
+    {
+      "index": 94,
+      "id": "specialist-095",
+      "title": "Specialist #95 (syndicate-global)",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/094-specialist-095.md"
+    },
+    {
+      "index": 95,
+      "id": "specialist-096",
+      "title": "Specialist #96 (syndicate-music)",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-096/agents/095-specialist-096.md"
+    }
+  ]
+}

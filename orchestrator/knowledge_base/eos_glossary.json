@@ -1,0 +1,1400 @@
+[
+  {
+    "term_id": "EOS-TERM-001",
+    "term": "EOS ® (Entrepreneurial Operating System ® )",
+    "normalized_term": "eos entrepreneurial operating system",
+    "aliases": [
+      "EOS",
+      "Entrepreneurial Operating System"
+    ],
+    "category": "What Is EOS?",
+    "definition": "A complete, proven business operating system that helps entrepreneurs get what they want from their businesses by strengthening the Six Key Components of any company. Created by Gino Wickman and introduced in his 2007 book Traction .",
+    "eos_components": [
+      "Vision",
+      "People",
+      "Data",
+      "Issues",
+      "Process",
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "What Is EOS? > EOS ® (Entrepreneurial Operating System ® )"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-002",
+    "term": "Vision Component ®",
+    "normalized_term": "vision component",
+    "aliases": [],
+    "category": "The Six Key Components™",
+    "definition": "Getting everyone in the organization 100% on the same page about where the company is going and how it will get there. Primary tool: V/TO®.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-002"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The Six Key Components™ > Vision Component ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-003",
+    "term": "People Component ®",
+    "normalized_term": "people component",
+    "aliases": [],
+    "category": "The Six Key Components™",
+    "definition": "Surrounding yourself with great people, top to bottom, because you cannot achieve a great vision without a great team. Primary tools: People Analyzer®, Accountability Chart™, GWC™.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-003"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The Six Key Components™ > People Component ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-004",
+    "term": "Data Component ®",
+    "normalized_term": "data component",
+    "aliases": [],
+    "category": "The Six Key Components™",
+    "definition": "Boiling the organization down to a handful of objective numbers that give an absolute pulse on the business. Primary tool: Scorecard.",
+    "eos_components": [
+      "Data"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-004"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The Six Key Components™ > Data Component ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-005",
+    "term": "Issues Component ®",
+    "normalized_term": "issues component",
+    "aliases": [],
+    "category": "The Six Key Components™",
+    "definition": "The ability to become great at solving problems throughout the organization — setting them up, knocking them down, and making them go away forever. Primary tool: IDS®.",
+    "eos_components": [
+      "Issues"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-005"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The Six Key Components™ > Issues Component ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-006",
+    "term": "Process Component ®",
+    "normalized_term": "process component",
+    "aliases": [],
+    "category": "The Six Key Components™",
+    "definition": "Systemizing the business by identifying and documenting the core processes that define how to run the company, and getting everyone to follow them. Primary tool: Three-Step Process Documenter™.",
+    "eos_components": [
+      "Process"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-006"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The Six Key Components™ > Process Component ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-007",
+    "term": "Traction Component ®",
+    "normalized_term": "traction component",
+    "aliases": [],
+    "category": "The Six Key Components™",
+    "definition": "Bringing discipline and accountability into the organization to execute on the vision. Primary tools: Rocks, Meeting Pulse®.",
+    "eos_components": [
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-007"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The Six Key Components™ > Traction Component ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-008",
+    "term": "Vision/Traction Organizer ® (V/TO ® )",
+    "normalized_term": "vision traction organizer v to",
+    "aliases": [
+      "V/TO"
+    ],
+    "category": "Vision Tools",
+    "definition": "The two-page document that captures the answers to the eight questions every leadership team must answer to create a clear vision. Page one captures the Vision; page two captures the Traction plan.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > Vision/Traction Organizer ® (V/TO ® )"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-009",
+    "term": "Personal V/TO ™",
+    "normalized_term": "personal v to",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "A personal version of the V/TO applied to an individual’s life, covering personal core values, core focus, and life goals.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > Personal V/TO ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-010",
+    "term": "The 8 Questions ™",
+    "normalized_term": "the 8 questions",
+    "aliases": [
+      "Eight Questions"
+    ],
+    "category": "Vision Tools",
+    "definition": "The eight foundational questions answered on the V/TO: (1) Core Values, (2) Core Focus, (3) 10-Year Target, (4) Marketing Strategy, (5) 3-Year Picture, (6) 1-Year Plan, (7) Quarterly Rocks, (8) Issues.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > The 8 Questions ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-011",
+    "term": "Core Values",
+    "normalized_term": "core values",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "The three to seven essential, timeless guiding principles that define the company’s culture and who belongs in it. Discovered, not invented. Used in hiring, firing, reviewing, rewarding, and recognizing.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-002"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > Core Values"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-012",
+    "term": "Core Focus ™",
+    "normalized_term": "core focus",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "The combination of the company’s Purpose/Cause/Passion (why it exists) and its Niche (what it does better than anyone else). Every decision runs through Core Focus.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-003"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > Core Focus ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-013",
+    "term": "Personal Core Focus ™",
+    "normalized_term": "personal core focus",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "The personal version of Core Focus — what an individual is most passionate about and uniquely capable of doing. Used in Personal V/TOs and Delegate and Elevate exercises.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > Personal Core Focus ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-014",
+    "term": "10-Year Target ™",
+    "normalized_term": "10 year target",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "The single, long-range, tangible goal the entire organization is marching toward. Typically 5–30 years out; 10 years is the default. BHAG is Jim Collins’ equivalent term — EOS uses 10-Year Target publicly.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-004"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > 10-Year Target ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-015",
+    "term": "Marketing Strategy",
+    "normalized_term": "marketing strategy",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "The four-part definition of exactly who the company serves and how it wins: (1) Target Market / The List; (2) Three Uniques™; (3) Proven Process; (4) Guarantee.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-005"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > Marketing Strategy"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-016",
+    "term": "Three Uniques ™",
+    "normalized_term": "three uniques",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "The three things that make the company different from every competitor. A company’s differentiation distilled to three specific, defensible points.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > Three Uniques ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-017",
+    "term": "Proven Process",
+    "normalized_term": "proven process",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "The documented, repeatable way the company delivers its product or service — visualized on one page.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > Proven Process"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-018",
+    "term": "3-Year Picture ™",
+    "normalized_term": "3 year picture",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "A vivid, specific description of what the company will look like three years from now — revenue, profit, measurables, and descriptive bullets. Written in present tense.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-006"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > 3-Year Picture ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-019",
+    "term": "1-Year Plan",
+    "normalized_term": "1 year plan",
+    "aliases": [],
+    "category": "Vision Tools",
+    "definition": "The revenue, profit, measurables, and three to seven goals the company commits to completing in the next 12 months.",
+    "eos_components": [
+      "Vision"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-007"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Vision Tools > 1-Year Plan"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-020",
+    "term": "Accountability Chart ™",
+    "normalized_term": "accountability chart",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "The right structure of seats (roles), with the right people in them, to achieve the vision. Replaces the traditional org chart. Structure comes first; people fill the seats.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-008"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Accountability Chart ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-021",
+    "term": "GWC ™ (Get it, Want it, Capacity to do it)",
+    "normalized_term": "gwc get it want it capacity to do it",
+    "aliases": [
+      "GWC",
+      "Get it, Want it, Capacity to do it"
+    ],
+    "category": "People Tools",
+    "definition": "The three-question test used to evaluate whether a person is right for a seat. All three must be yes: Get it (truly understands the role), Want it (genuinely wants to do the job), Capacity to do it (has the mental, physical, and practical capacity).",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-009"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > GWC ™ (Get it, Want it, Capacity to do it)"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-022",
+    "term": "Right Person, Right Seat",
+    "normalized_term": "right person right seat",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "The two-part standard every employee must meet — fits the Core Values (Right Person) and passes GWC for their seat (Right Seat).",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-009",
+      "EOS-TOL-010"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Right Person, Right Seat"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-023",
+    "term": "The People Analyzer ®",
+    "normalized_term": "the people analyzer",
+    "aliases": [
+      "People Analyzer"
+    ],
+    "category": "People Tools",
+    "definition": "The tool that plots every person against the Core Values and GWC to determine if they are Right Person, Right Seat.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-010"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > The People Analyzer ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-024",
+    "term": "The Bar",
+    "normalized_term": "the bar",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "The minimum acceptable standard on the People Analyzer that every employee must meet. Set by the leadership team.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > The Bar"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-025",
+    "term": "Delegate and Elevate ™",
+    "normalized_term": "delegate and elevate",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "The exercise that helps leaders identify the work only they should be doing and delegate the rest. Four quadrants: Love/Great at; Like/Good at; Don’t like/Good at; Don’t like/Not good at. Leaders should spend 80% of time in the top quadrant.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-011"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Delegate and Elevate ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-026",
+    "term": "LMA ™ (Leadership, Management, Accountability)",
+    "normalized_term": "lma leadership management accountability",
+    "aliases": [
+      "LMA",
+      "Leadership, Management, Accountability"
+    ],
+    "category": "People Tools",
+    "definition": "The three things every leader must provide to their direct reports. Defined in How to Be a Great Boss by Gino Wickman and René Boer.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-008"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > LMA ™ (Leadership, Management, Accountability)"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-027",
+    "term": "Five Leadership Abilities",
+    "normalized_term": "five leadership abilities",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "Give clear direction; provide the necessary tools; let go of the vine; act with the greater good in mind; take Clarity Breaks. From How to Be a Great Boss .",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-009"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Five Leadership Abilities"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-028",
+    "term": "Five Management Abilities",
+    "normalized_term": "five management abilities",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "Keep expectations clear; communicate well; have the right meeting pulse; have Quarterly Conversations; reward and recognize. From How to Be a Great Boss .",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-010"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Five Management Abilities"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-029",
+    "term": "Quarterly Conversation ™",
+    "normalized_term": "quarterly conversation",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "The structured, informal one-on-one between a manager and direct report every 90 days — focused on what’s working, what’s not, and development.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-002"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Quarterly Conversation ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-030",
+    "term": "Clarity Break ™",
+    "normalized_term": "clarity break",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "Scheduled time away from the business — alone, with no phone, no noise — to think, plan, and work on the business. A non-negotiable habit for Visionaries.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-010"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Clarity Break ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-031",
+    "term": "Visionary",
+    "normalized_term": "visionary",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "The role (often the founder) focused on big ideas, culture, key relationships, and major strategic problems. About 3% of the population are pure Visionaries. One seat in the Visionary/Integrator pairing.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-012"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Visionary"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-032",
+    "term": "Integrator ™",
+    "normalized_term": "integrator",
+    "aliases": [],
+    "category": "People Tools",
+    "definition": "The role that harmoniously integrates the major functions of the business and executes the Visionary’s ideas. About 7% of the population are pure Integrators.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Integrator ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-033",
+    "term": "Visionary/Integrator ™ (V/I)",
+    "normalized_term": "visionary integrator v i",
+    "aliases": [
+      "V/I",
+      "Visionary–Integrator"
+    ],
+    "category": "People Tools",
+    "definition": "The two-seat pairing at the top of every great entrepreneurial company — also called Rocket Fuel®. The combination of a Visionary and an Integrator creates the conditions for exponential growth.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "People Tools > Visionary/Integrator ™ (V/I)"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-034",
+    "term": "Scorecard",
+    "normalized_term": "scorecard",
+    "aliases": [],
+    "category": "Data Tools",
+    "definition": "A weekly dashboard of five to 15 numbers that gives the leadership team an absolute pulse on the business. Reviewed in the first five minutes of every Level 10 Meeting. Off-track numbers become Issues.",
+    "eos_components": [
+      "Data"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-013"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Data Tools > Scorecard"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-035",
+    "term": "Measurables",
+    "normalized_term": "measurables",
+    "aliases": [],
+    "category": "Data Tools",
+    "definition": "Objective, activity-based numbers that predict the future health of the business. EOS prefers “Measurables” over “KPIs” — Measurables are leading indicators.",
+    "eos_components": [
+      "Data"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Data Tools > Measurables"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-036",
+    "term": "Off-Track",
+    "normalized_term": "off track",
+    "aliases": [],
+    "category": "Data Tools",
+    "definition": "A Scorecard number that missed its weekly goal. Off-track numbers drop to the Issues List for IDS during the Level 10 Meeting.",
+    "eos_components": [
+      "Data"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Data Tools > Off-Track"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-037",
+    "term": "Issues List",
+    "normalized_term": "issues list",
+    "aliases": [],
+    "category": "Issues Tools",
+    "definition": "The running list of problems, ideas, and opportunities that need to be solved. Three types: V/TO Issues List (strategic, long-term); Level 10 Issues List (tactical, weekly); Departmental Issues Lists.",
+    "eos_components": [
+      "Issues"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-014"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Issues Tools > Issues List"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-038",
+    "term": "The Issues Solving Track ™ (IDS ® )",
+    "normalized_term": "the issues solving track ids",
+    "aliases": [
+      "IDS",
+      "Issues Solving Track"
+    ],
+    "category": "Issues Tools",
+    "definition": "The three-step process — Identify, Discuss, Solve — for solving any issue so it goes away forever. The 60-minute heart of every Level 10 Meeting.",
+    "eos_components": [
+      "Issues"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-003"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Issues Tools > The Issues Solving Track ™ (IDS ® )"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-039",
+    "term": "Enter the Danger",
+    "normalized_term": "enter the danger",
+    "aliases": [],
+    "category": "Issues Tools",
+    "definition": "The discipline of addressing tough, uncomfortable issues head-on rather than avoiding them. A core principle of healthy team culture in EOS.",
+    "eos_components": [
+      "Issues"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Issues Tools > Enter the Danger"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-040",
+    "term": "Core Processes",
+    "normalized_term": "core processes",
+    "aliases": [],
+    "category": "Process Tools",
+    "definition": "The handful of major processes — typically six to ten — that define how the company operates. Examples: HR, Marketing, Sales, Operations, Accounting, Customer Retention. Documented at a 20/80 level.",
+    "eos_components": [
+      "Process"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-004",
+      "EOS-PRC-005"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Process Tools > Core Processes"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-041",
+    "term": "Three-Step Process Documenter ™",
+    "normalized_term": "three step process documenter",
+    "aliases": [],
+    "category": "Process Tools",
+    "definition": "The simple three-step method for documenting Core Processes: (1) Identify, (2) Document and Simplify, (3) Package and roll out FBA.",
+    "eos_components": [
+      "Process"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-004"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Process Tools > Three-Step Process Documenter ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-042",
+    "term": "Followed By All (FBA ™ )",
+    "normalized_term": "followed by all fba",
+    "aliases": [
+      "FBA",
+      "Followed By All"
+    ],
+    "category": "Process Tools",
+    "definition": "The discipline of ensuring every person in the organization follows the documented Core Processes consistently.",
+    "eos_components": [
+      "Process"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-005"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Process Tools > Followed By All (FBA ™ )"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-043",
+    "term": "Rocks",
+    "normalized_term": "rocks",
+    "aliases": [],
+    "category": "Traction Tools",
+    "definition": "The three to seven most important priorities a team or person will complete in the next 90 days. Must be SMART. Company Rocks cascade to individual Rocks. Reviewed every Level 10 Meeting.",
+    "eos_components": [
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-TOL-015"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Traction Tools > Rocks"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-044",
+    "term": "90-Day World ®",
+    "normalized_term": "90 day world",
+    "aliases": [],
+    "category": "Traction Tools",
+    "definition": "The EOS principle that everything the organization does is built around 90-day cycles. Quarterly planning creates the rhythm of execution.",
+    "eos_components": [
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-007",
+      "EOS-TOL-015"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Traction Tools > 90-Day World ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-045",
+    "term": "Meeting Pulse ®",
+    "normalized_term": "meeting pulse",
+    "aliases": [],
+    "category": "Traction Tools",
+    "definition": "The rhythm of meetings — weekly Level 10 Meeting, Quarterly Pulsing, and Annual Planning — that keeps a leadership team synchronized and executing.",
+    "eos_components": [
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-011"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Traction Tools > Meeting Pulse ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-046",
+    "term": "Level 10 Meeting ™",
+    "normalized_term": "level 10 meeting",
+    "aliases": [
+      "L10",
+      "L10 Meeting"
+    ],
+    "category": "Traction Tools",
+    "definition": "The weekly, 90-minute leadership team meeting with a fixed seven-part agenda: Segue (5), Scorecard (5), Rock Review (5), Customer/Employee Headlines (5), To-Do List (5), IDS (60), Conclude (5). Same day, same time, every week.",
+    "eos_components": [
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-006"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Traction Tools > Level 10 Meeting ™"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-047",
+    "term": "Quarterly Pulsing",
+    "normalized_term": "quarterly pulsing",
+    "aliases": [],
+    "category": "Traction Tools",
+    "definition": "The full-day session every 90 days where the leadership team reviews progress, solves issues, and sets new Rocks for the next quarter.",
+    "eos_components": [
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-011",
+      "EOS-PRC-007"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Traction Tools > Quarterly Pulsing"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-048",
+    "term": "Annual Planning",
+    "normalized_term": "annual planning",
+    "aliases": [],
+    "category": "Traction Tools",
+    "definition": "The two-day session once per year where the leadership team refreshes the V/TO, sets the 1-Year Plan, and establishes Q1 Rocks.",
+    "eos_components": [
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-008"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Traction Tools > Annual Planning"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-049",
+    "term": "To-Do / To-Dos",
+    "normalized_term": "to do to dos",
+    "aliases": [
+      "To-Do",
+      "To-Dos"
+    ],
+    "category": "Traction Tools",
+    "definition": "Short-term, seven-day action items captured during Level 10 Meetings. Always hyphenated. 90% should complete within seven days.",
+    "eos_components": [
+      "Traction"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Traction Tools > To-Do / To-Dos"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-050",
+    "term": "The EOS Process ®",
+    "normalized_term": "the eos process",
+    "aliases": [],
+    "category": "The EOS Process® and Delivery",
+    "definition": "The proven, structured sequence of sessions a Professional EOS Implementer takes a leadership team through — on average 10 full days over two years: 90-Minute Meeting → Focus Day® → Vision Building® Day 1 → Day 2 → ongoing Quarterly and Annual sessions.",
+    "eos_components": [
+      "Vision",
+      "People",
+      "Data",
+      "Issues",
+      "Process",
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The EOS Process® and Delivery > The EOS Process ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-051",
+    "term": "90-Minute Meeting",
+    "normalized_term": "90 minute meeting",
+    "aliases": [],
+    "category": "The EOS Process® and Delivery",
+    "definition": "The free, no-obligation introductory session where a Professional EOS Implementer introduces the leadership team to EOS before any commitment.",
+    "eos_components": [
+      "Vision",
+      "People",
+      "Data",
+      "Issues",
+      "Process",
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The EOS Process® and Delivery > 90-Minute Meeting"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-052",
+    "term": "Focus Day ®",
+    "normalized_term": "focus day",
+    "aliases": [],
+    "category": "The EOS Process® and Delivery",
+    "definition": "The first full-day EOS session where the leadership team adopts the Accountability Chart, Rocks, Meeting Pulse, Scorecard, and To-Do List.",
+    "eos_components": [
+      "Vision",
+      "People",
+      "Data",
+      "Issues",
+      "Process",
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The EOS Process® and Delivery > Focus Day ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-053",
+    "term": "Vision Building ®",
+    "normalized_term": "vision building",
+    "aliases": [],
+    "category": "The EOS Process® and Delivery",
+    "definition": "The two-session sequence (Day 1 and Day 2) where the leadership team builds out the complete V/TO.",
+    "eos_components": [
+      "Vision",
+      "People",
+      "Data",
+      "Issues",
+      "Process",
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-PRC-001",
+      "EOS-TOL-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The EOS Process® and Delivery > Vision Building ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-054",
+    "term": "EOS Pure",
+    "normalized_term": "eos pure",
+    "aliases": [],
+    "category": "The EOS Process® and Delivery",
+    "definition": "The discipline of implementing EOS exactly as designed, without modification or mixing with other systems.",
+    "eos_components": [
+      "Vision",
+      "People",
+      "Data",
+      "Issues",
+      "Process",
+      "Traction"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The EOS Process® and Delivery > EOS Pure"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-055",
+    "term": "EOS Toolbox ®",
+    "normalized_term": "eos toolbox",
+    "aliases": [],
+    "category": "The EOS Process® and Delivery",
+    "definition": "The complete collection of EOS tools used to strengthen the Six Key Components of a business.",
+    "eos_components": [
+      "Vision",
+      "People",
+      "Data",
+      "Issues",
+      "Process",
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The EOS Process® and Delivery > EOS Toolbox ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-056",
+    "term": "EOS Model ®",
+    "normalized_term": "eos model",
+    "aliases": [],
+    "category": "The EOS Process® and Delivery",
+    "definition": "The visual representation of the Six Key Components of any business: Vision, People, Data, Issues, Process, and Traction.",
+    "eos_components": [
+      "Vision",
+      "People",
+      "Data",
+      "Issues",
+      "Process",
+      "Traction"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "The EOS Process® and Delivery > EOS Model ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-057",
+    "term": "Professional EOS Implementer ® / EOS Implementer ®",
+    "normalized_term": "professional eos implementer eos implementer",
+    "aliases": [
+      "EOS Implementer",
+      "Professional EOS Implementer"
+    ],
+    "category": "Roles and People",
+    "definition": "A certified, EOSW-trained coach who teaches, facilitates, and coaches leadership teams through the EOS Process. Experienced entrepreneurs themselves, not career consultants. Never referred to as “EOSI” in public content.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Roles and People > Professional EOS Implementer ® / EOS Implementer ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-058",
+    "term": "EOS Academy",
+    "normalized_term": "eos academy",
+    "aliases": [],
+    "category": "Roles and People",
+    "definition": "EOSW’s learning and community platform for EOS Implementers and self-implementing companies. Formerly called Base Camp — always use EOS Academy in current content.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Roles and People > EOS Academy"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-059",
+    "term": "Self-Implementer",
+    "normalized_term": "self implementer",
+    "aliases": [],
+    "category": "Roles and People",
+    "definition": "A leadership team adopting EOS using the books and free tools at eosworldwide.com without a Professional EOS Implementer.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Roles and People > Self-Implementer"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-060",
+    "term": "EOS Community",
+    "normalized_term": "eos community",
+    "aliases": [],
+    "category": "Roles and People",
+    "definition": "The global network of EOS Implementers, companies running on EOS, and the EOS Worldwide team.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Roles and People > EOS Community"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-061",
+    "term": "Leadership Team",
+    "normalized_term": "leadership team",
+    "aliases": [],
+    "category": "Roles and People",
+    "definition": "The three to seven people at the top of an organization who own the vision and the results. The primary audience for EOS.",
+    "eos_components": [
+      "People"
+    ],
+    "canonical_object_ids": [
+      "EOS-FRM-001"
+    ],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Roles and People > Leadership Team"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-062",
+    "term": "V/T/H (Vision, Traction, Healthy)",
+    "normalized_term": "v t h vision traction healthy",
+    "aliases": [
+      "V/T/H",
+      "Vision, Traction, Healthy"
+    ],
+    "category": "Philosophical and Cultural Terms",
+    "definition": "The three things EOS helps leadership teams become. EOSW’s Three Uniques for client companies.",
+    "eos_components": [],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Philosophical and Cultural Terms > V/T/H (Vision, Traction, Healthy)"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-063",
+    "term": "The EOS Life ®",
+    "normalized_term": "the eos life",
+    "aliases": [],
+    "category": "Philosophical and Cultural Terms",
+    "definition": "The ideal entrepreneurial life: doing what you love; with people you love; making a huge difference; being compensated appropriately; and having time to pursue other passions. From Gino Wickman’s 2021 book The EOS Life .",
+    "eos_components": [],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Philosophical and Cultural Terms > The EOS Life ®"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-064",
+    "term": "The Five Frustrations",
+    "normalized_term": "the five frustrations",
+    "aliases": [],
+    "category": "Philosophical and Cultural Terms",
+    "definition": "The five universal frustrations that drive entrepreneurs to seek EOS: People, Lack of Control, Profit, Hitting the Ceiling, and Nothing’s Working.",
+    "eos_components": [],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Philosophical and Cultural Terms > The Five Frustrations"
+    }
+  },
+  {
+    "term_id": "EOS-TERM-065",
+    "term": "Hitting the Ceiling",
+    "normalized_term": "hitting the ceiling",
+    "aliases": [],
+    "category": "Philosophical and Cultural Terms",
+    "definition": "The point where a company’s or leader’s growth stalls. Happens at every level of an organization. Five abilities to break through: Simplify, Delegate, Predict, Systemize, Structure.",
+    "eos_components": [],
+    "canonical_object_ids": [],
+    "claim_type": "EOS principle",
+    "source_citation": {
+      "document_id": "EOS-01085",
+      "source_url_or_locator": "https://www.eosworldwide.com/glossary",
+      "phase4_markdown_path": "outputs/phase4/corpus/clean_markdown/EOS-01085.md",
+      "supporting_section": "Philosophical and Cultural Terms > Hitting the Ceiling"
+    }
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "_template",
+  "name": "Template Business",
+  "description": "Copy this folder to businesses/<your-idea>/ and fill in pipeline + scorecard.",
+  "tagline": "One sentence — what this business does",
+  "grok": {
+    "orgTier": 5,
+    "workspaceSubdir": "template"
+  },
+  "seats": [
+    {
+      "name": "Integrator",
+      "metric": "integrator_seats_reporting_pct",
+      "role": "integrator",
+      "responsibilities": "Run L10, route handoffs, escalate money/people/policy to Visionary."
+    },
+    {
+      "name": "Operator",
+      "metric": "pipeline_runs_24h",
+      "role": "grunt",
+      "responsibilities": "Execute run-pipeline on schedule. Report handoff.json to Integrator."
+    },
+    {
+      "name": "Growth",
+      "metric": "outreach_posts_week",
+      "role": "grunt",
+      "responsibilities": "Post from outbox/ to configured channels. Log to syndicated.json."
+    }
+  ],
+  "pipeline": {
+    "schedule": "0 */6 * * *",
+    "steps": ["sync", "build", "validate", "distribute"]
+  },
+  "channels": []
+}

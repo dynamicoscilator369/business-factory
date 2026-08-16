@@ -1,0 +1,357 @@
+{
+  "tier": 42,
+  "botCount": 42,
+  "human": "apex approver (you)",
+  "tier3Layout": null,
+  "management": {
+    "layers": 5,
+    "you_plus": "you \u2192 chief \u2192 2 deputies \u2192 6 leads \u2192 workers"
+  },
+  "departments": {
+    "command": 3,
+    "intelligence": 12,
+    "pipeline": 8,
+    "publish": 6,
+    "syndicate-global": 2,
+    "syndicate-music": 2,
+    "syndicate-turkey": 9
+  },
+  "bots": [
+    {
+      "index": 0,
+      "id": "chief",
+      "title": "Chief Coordinator",
+      "dept": "command",
+      "reportsTo": "human (you)",
+      "briefFile": "generated/tier-042/agents/000-chief.md"
+    },
+    {
+      "index": 1,
+      "id": "scout",
+      "title": "Scout (Pipeline Runner)",
+      "dept": "pipeline",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-042/agents/001-scout.md"
+    },
+    {
+      "index": 2,
+      "id": "syndicator",
+      "title": "Syndicator (Global + Turkey)",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/002-syndicator.md"
+    },
+    {
+      "index": 3,
+      "id": "publisher",
+      "title": "Publisher (Deploy)",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/003-publisher.md"
+    },
+    {
+      "index": 4,
+      "id": "turkey-lead",
+      "title": "Turkey Syndicate Lead",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/004-turkey-lead.md"
+    },
+    {
+      "index": 5,
+      "id": "deputy-ops",
+      "title": "Deputy \u2014 Operations",
+      "dept": "command",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/005-deputy-ops.md"
+    },
+    {
+      "index": 6,
+      "id": "deputy-intel",
+      "title": "Deputy \u2014 Intelligence",
+      "dept": "command",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/006-deputy-intel.md"
+    },
+    {
+      "index": 7,
+      "id": "mercor-lead",
+      "title": "Mercor Scout Lead",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/007-mercor-lead.md"
+    },
+    {
+      "index": 8,
+      "id": "mercor-music",
+      "title": "Mercor Music Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/008-mercor-music.md"
+    },
+    {
+      "index": 9,
+      "id": "mercor-turkish",
+      "title": "Mercor Turkish Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/009-mercor-turkish.md"
+    },
+    {
+      "index": 10,
+      "id": "mercor-production",
+      "title": "Mercor Production Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/010-mercor-production.md"
+    },
+    {
+      "index": 11,
+      "id": "outlier-lead",
+      "title": "Outlier Scout Lead",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/011-outlier-lead.md"
+    },
+    {
+      "index": 12,
+      "id": "outlier-video",
+      "title": "Outlier Video Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/012-outlier-video.md"
+    },
+    {
+      "index": 13,
+      "id": "outlier-coding",
+      "title": "Outlier Coding Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/013-outlier-coding.md"
+    },
+    {
+      "index": 14,
+      "id": "da-lead",
+      "title": "DataAnnotation Scout",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/014-da-lead.md"
+    },
+    {
+      "index": 15,
+      "id": "source-research",
+      "title": "New Source Researcher",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/015-source-research.md"
+    },
+    {
+      "index": 16,
+      "id": "competitor-watch",
+      "title": "Competitor Aggregator Watch",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/016-competitor-watch.md"
+    },
+    {
+      "index": 17,
+      "id": "rate-tracker",
+      "title": "Rate & Pay Tracker",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/017-rate-tracker.md"
+    },
+    {
+      "index": 18,
+      "id": "takedown-watch",
+      "title": "Takedown Watch",
+      "dept": "intelligence",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/018-takedown-watch.md"
+    },
+    {
+      "index": 19,
+      "id": "sync-lead",
+      "title": "Sync Lead",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/019-sync-lead.md"
+    },
+    {
+      "index": 20,
+      "id": "sync-runner-2",
+      "title": "Sync Runner \u2014 Off-cycle",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/020-sync-runner-2.md"
+    },
+    {
+      "index": 21,
+      "id": "build-lead",
+      "title": "Build Lead",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/021-build-lead.md"
+    },
+    {
+      "index": 22,
+      "id": "validate-lead",
+      "title": "Validate Lead",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/022-validate-lead.md"
+    },
+    {
+      "index": 23,
+      "id": "handoff-writer",
+      "title": "Handoff Writer",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/023-handoff-writer.md"
+    },
+    {
+      "index": 24,
+      "id": "state-auditor",
+      "title": "State Auditor",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/024-state-auditor.md"
+    },
+    {
+      "index": 25,
+      "id": "pipeline-recovery",
+      "title": "Pipeline Recovery",
+      "dept": "pipeline",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/025-pipeline-recovery.md"
+    },
+    {
+      "index": 26,
+      "id": "publish-lead",
+      "title": "Publish Director",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/026-publish-lead.md"
+    },
+    {
+      "index": 27,
+      "id": "sitemap",
+      "title": "Sitemap & Search Console",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/027-sitemap.md"
+    },
+    {
+      "index": 28,
+      "id": "seo-monitor",
+      "title": "SEO & Canonical Monitor",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/028-seo-monitor.md"
+    },
+    {
+      "index": 29,
+      "id": "deploy-staging",
+      "title": "Staging Preview",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/029-deploy-staging.md"
+    },
+    {
+      "index": 30,
+      "id": "cdn-cache",
+      "title": "CDN Cache Purge",
+      "dept": "publish",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/030-cdn-cache.md"
+    },
+    {
+      "index": 31,
+      "id": "donanimhaber",
+      "title": "Donan\u0131mHaber Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/031-donanimhaber.md"
+    },
+    {
+      "index": 32,
+      "id": "technopat",
+      "title": "Technopat Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/032-technopat.md"
+    },
+    {
+      "index": 33,
+      "id": "eksisozluk",
+      "title": "Ek\u015fi S\u00f6zl\u00fck Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/033-eksisozluk.md"
+    },
+    {
+      "index": 34,
+      "id": "reddit-turkey",
+      "title": "r/Turkey Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/034-reddit-turkey.md"
+    },
+    {
+      "index": 35,
+      "id": "facebook-tr",
+      "title": "Facebook TR Producers",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/035-facebook-tr.md"
+    },
+    {
+      "index": 36,
+      "id": "instagram-tr",
+      "title": "Instagram TR Music",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/036-instagram-tr.md"
+    },
+    {
+      "index": 37,
+      "id": "tr-localizer",
+      "title": "TR Copy Localizer",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/037-tr-localizer.md"
+    },
+    {
+      "index": 38,
+      "id": "tr-reply",
+      "title": "TR Forum Reply Agent",
+      "dept": "syndicate-turkey",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/038-tr-reply.md"
+    },
+    {
+      "index": 39,
+      "id": "global-lead",
+      "title": "Global Syndicate Lead",
+      "dept": "syndicate-global",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/039-global-lead.md"
+    },
+    {
+      "index": 40,
+      "id": "kvr",
+      "title": "KVR Audio Jobs Agent",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/040-kvr.md"
+    },
+    {
+      "index": 41,
+      "id": "vi-control",
+      "title": "VI-Control Agent",
+      "dept": "syndicate-music",
+      "reportsTo": "Chief Coordinator",
+      "briefFile": "generated/tier-042/agents/041-vi-control.md"
+    }
+  ]
+}

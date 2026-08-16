@@ -1,0 +1,139 @@
+{
+  "channels": {
+    "global": [
+      {
+        "id": "reddit-remote-jobs",
+        "name": "Reddit — r/remotework",
+        "type": "reddit",
+        "url": "https://www.reddit.com/r/remotework/",
+        "lang": "en",
+        "notes": "Check sub rules; use text post linking to your job page"
+      },
+      {
+        "id": "reddit-forhire",
+        "name": "Reddit — r/forhire",
+        "type": "reddit",
+        "url": "https://www.reddit.com/r/forhire/",
+        "lang": "en",
+        "flair": "[Hiring]"
+      },
+      {
+        "id": "reddit-we-work-online",
+        "name": "Reddit — r/WorkOnline",
+        "type": "reddit",
+        "url": "https://www.reddit.com/r/WorkOnline/",
+        "lang": "en"
+      },
+      {
+        "id": "kvraudio-jobs",
+        "name": "KVR Audio — Jobs forum",
+        "type": "forum",
+        "url": "https://www.kvraudio.com/forum/viewforum.php?f=46",
+        "lang": "en",
+        "verticals": ["music", "production"]
+      },
+      {
+        "id": "vi-control",
+        "name": "VI-Control — Studio & Business",
+        "type": "forum",
+        "url": "https://vi-control.net/community/forums/studio-and-business.64/",
+        "lang": "en",
+        "verticals": ["music", "production"]
+      },
+      {
+        "id": "gearspace",
+        "name": "Gearspace — Jobs",
+        "type": "forum",
+        "url": "https://gearspace.com/board/index.php",
+        "lang": "en",
+        "verticals": ["music", "production"]
+      },
+      {
+        "id": "x-general",
+        "name": "X / Twitter",
+        "type": "social",
+        "lang": "en",
+        "postiz": true
+      },
+      {
+        "id": "linkedin-feed",
+        "name": "LinkedIn feed post",
+        "type": "social",
+        "lang": "en",
+        "postiz": true
+      },
+      {
+        "id": "bluesky",
+        "name": "Bluesky",
+        "type": "social",
+        "lang": "en",
+        "postiz": true
+      },
+      {
+        "id": "telegram-remote",
+        "name": "Telegram — remote work groups",
+        "type": "telegram",
+        "lang": "en",
+        "postiz": true
+      }
+    ],
+    "turkey": [
+      {
+        "id": "donanimhaber-muzik",
+        "name": "DonanımHaber — Müzik forumu",
+        "type": "forum",
+        "url": "https://forum.donanimhaber.com/muzik--f180",
+        "lang": "tr",
+        "verticals": ["music", "production", "turkey"]
+      },
+      {
+        "id": "technopat-muzik",
+        "name": "Technopat — Müzik & Ses",
+        "type": "forum",
+        "url": "https://www.technopat.net/sosyal/kategori/muzik-ve-ses-sistemleri.596/",
+        "lang": "tr",
+        "verticals": ["music", "production", "turkey"]
+      },
+      {
+        "id": "reddit-turkey",
+        "name": "Reddit — r/Turkey (career thread)",
+        "type": "reddit",
+        "url": "https://www.reddit.com/r/Turkey/",
+        "lang": "tr",
+        "verticals": ["turkey"]
+      },
+      {
+        "id": "eksisozluk",
+        "name": "Ekşi Sözlük — freelance / remote başlıkları",
+        "type": "forum",
+        "url": "https://eksisozluk.com/",
+        "lang": "tr",
+        "verticals": ["turkey"],
+        "notes": "Manual; search remote iş, freelance müzik"
+      },
+      {
+        "id": "facebook-tr-producers",
+        "name": "Facebook — TR müzik prodüksiyon grupları",
+        "type": "facebook",
+        "lang": "tr",
+        "verticals": ["music", "production", "turkey"],
+        "notes": "Search: Türkiye beat yapım, home studio TR, Logic Pro Türkiye"
+      },
+      {
+        "id": "instagram-tr-music",
+        "name": "Instagram — TR müzik prodüktör hashtag",
+        "type": "social",
+        "lang": "tr",
+        "hashtags": ["#müzikprodüksiyon", "#homestudio", "#beatmaker", "#remoteiş"],
+        "postiz": true,
+        "verticals": ["music", "production", "turkey"]
+      }
+    ]
+  },
+  "templates": {
+    "en_forum": "Remote contract — {title}\n\n{summary}\n\nPay: {pay}\nRegion: {region}\nSource: {source}\n\nFull listing + apply:\n{job_url}\n\nFlexible hours · paid weekly · no prior AI experience required for most roles.",
+    "en_social": "🎵 Remote {category} contract\n\n{title}\n{pay} · {region}\n\n{summary}\n\n→ {job_url}",
+    "tr_forum": "Uzaktan sözleşmeli iş — {title}\n\n{summary_tr}\n\nÜcret: {pay}\nBölge: {region}\nPlatform: {source}\n\nDetaylar ve başvuru:\n{job_url}\n\nEsnek saatler · AI müzik değerlendirme ve prodüksiyon uzmanları için.",
+    "tr_social": "🎧 Uzaktan müzik / prodüksiyon işi\n\n{title}\n{pay} · {region}\n\n{summary_tr}\n\nBaşvuru: {job_url}"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "tier": 7,
+  "botCount": 7,
+  "human": "apex approver (you)",
+  "tier3Layout": null,
+  "management": {
+    "layers": 3,
+    "you_plus": "you \u2192 chief \u2192 6 workers"
+  },
+  "departments": {
+    "command": 3,
+    "pipeline": 1,
+    "publish": 1,
+    "syndicate-global": 1,
+    "syndicate-turkey": 1
+  },
+  "bots": [
+    {
+      "index": 0,
+      "id": "chief",
+      "title": "Chief Coordinator",
+      "dept": "command",
+      "reportsTo": "human (you)",
+      "briefFile": "generated/tier-007/agents/000-chief.md"
+    },
+    {
+      "index": 1,
+      "id": "scout",
+      "title": "Scout (Pipeline Runner)",
+      "dept": "pipeline",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-007/agents/001-scout.md"
+    },
+    {
+      "index": 2,
+      "id": "syndicator",
+      "title": "Syndicator (Global + Turkey)",
+      "dept": "syndicate-global",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-007/agents/002-syndicator.md"
+    },
+    {
+      "index": 3,
+      "id": "publisher",
+      "title": "Publisher (Deploy)",
+      "dept": "publish",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-007/agents/003-publisher.md"
+    },
+    {
+      "index": 4,
+      "id": "turkey-lead",
+      "title": "Turkey Syndicate Lead",
+      "dept": "syndicate-turkey",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-007/agents/004-turkey-lead.md"
+    },
+    {
+      "index": 5,
+      "id": "deputy-ops",
+      "title": "Deputy \u2014 Operations",
+      "dept": "command",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-007/agents/005-deputy-ops.md"
+    },
+    {
+      "index": 6,
+      "id": "deputy-intel",
+      "title": "Deputy \u2014 Intelligence",
+      "dept": "command",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-007/agents/006-deputy-intel.md"
+    }
+  ]
+}

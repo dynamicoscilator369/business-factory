@@ -1,0 +1,4 @@
+metric_key,goal,period,source_type,source_ref,owner_seat,notes
+integrator_seats_reporting_pct,100,weekly,computed,seat_health,Integrator,Percent of grunt seats with real data
+pipeline_runs_24h,1,daily,file,.state/pipeline_runs.txt,Operator,Increment in pipeline after each success
+outreach_posts_week,3,weekly,file,.state/posts_week.txt,Growth,Count syndicated posts this week

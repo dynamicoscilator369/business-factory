@@ -1,0 +1,41 @@
+{
+  "tier": 3,
+  "botCount": 3,
+  "human": "apex approver (you)",
+  "tier3Layout": "you \u2192 chief \u2192 scout + syndicator",
+  "management": {
+    "layers": 2,
+    "you_plus": "you + 2 bots under Chief"
+  },
+  "departments": {
+    "command": 1,
+    "pipeline": 1,
+    "syndicate-global": 1
+  },
+  "bots": [
+    {
+      "index": 0,
+      "id": "chief",
+      "title": "Chief Coordinator",
+      "dept": "command",
+      "reportsTo": "human (you)",
+      "briefFile": "generated/tier-003/agents/000-chief.md"
+    },
+    {
+      "index": 1,
+      "id": "scout",
+      "title": "Scout (Pipeline Runner)",
+      "dept": "pipeline",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-003/agents/001-scout.md"
+    },
+    {
+      "index": 2,
+      "id": "syndicator",
+      "title": "Syndicator (Global + Turkey)",
+      "dept": "syndicate-global",
+      "reportsTo": "chief",
+      "briefFile": "generated/tier-003/agents/002-syndicator.md"
+    }
+  ]
+}

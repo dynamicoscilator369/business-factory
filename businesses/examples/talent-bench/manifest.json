@@ -1,0 +1,47 @@
+{
+  "id": "talent-bench",
+  "name": "Talent Bench",
+  "description": "REFERENCE EXAMPLE — job board factory output. Copy patterns from here; your businesses live in businesses/<id>/ not examples/.",
+  "tagline": "Remote AI training & music production contracts — one board",
+  "grok": {
+    "orgTier": 5,
+    "workspaceSubdir": "talent-bench"
+  },
+  "seats": [
+    {
+      "name": "Integrator",
+      "metric": "integrator_seats_reporting_pct",
+      "role": "integrator",
+      "responsibilities": "Run L10, route handoffs, escalate money/people/policy to Visionary (Evan)."
+    },
+    {
+      "name": "Scout",
+      "metric": "active_job_count",
+      "role": "grunt",
+      "responsibilities": "Run pipeline every 6h: sync Mercor/Outlier/DataAnnotation, build site, validate, distribute. Write handoff.json."
+    },
+    {
+      "name": "Publisher",
+      "metric": "deploy_success",
+      "role": "grunt",
+      "responsibilities": "Deploy site/ to Cloudflare Pages after validate passes. Submit sitemap."
+    },
+    {
+      "name": "Syndicator",
+      "metric": "turkey_posts_week",
+      "role": "grunt",
+      "responsibilities": "Post outbox/turkey/ first (DonanımHaber, Technopat), then global forums and Postiz. Log syndicated.json."
+    }
+  ],
+  "pipeline": {
+    "schedule": "0 */6 * * *",
+    "steps": ["sync", "build", "validate", "distribute"]
+  },
+  "channels": {
+    "turkey": [
+      "https://forum.donanimhaber.com/muzik--f180",
+      "https://www.technopat.net/sosyal/kategori/muzik-ve-ses-sistemleri.596/"
+    ],
+    "global": ["kvr-audio", "vi-control", "reddit-remotework", "postiz"]
+  }
+}

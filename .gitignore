@@ -1,0 +1,8 @@
+.state/
+outbox/
+site/
+__pycache__/
+*.pyc
+.DS_Store
+orchestrator/__pycache__/
+orchestrator/state/*.jsonl

@@ -1,0 +1,45 @@
+{
+  "siteName": "Talent Bench",
+  "tagline": "Remote AI training & music production contracts \u2014 one board",
+  "description": "Live listings from Mercor, Outlier, and DataAnnotation in one place. Music, production, and domain-expert remote contracts. Updated automatically.",
+  "baseUrl": "https://talent-bench.pages.dev",
+  "contactEmail": "Evan.stewart90@gmail.com",
+  "hiringOrganization": {
+    "name": "Talent Bench",
+    "url": "https://talent-bench.pages.dev",
+    "logo": "https://talent-bench.pages.dev/logo.png"
+  },
+  "_comment_referral": "Set referralUrl to your Mercor referral link. Outlier/DataAnnotation use platform signup unless overridden below.",
+  "referralUrl": "https://t.mercor.com/YC9N2",
+  "sourceReferrals": {
+    "mercor": "https://t.mercor.com/YC9N2",
+    "outlier": "https://app.outlier.ai/opportunities",
+    "dataannotation": "https://app.dataannotation.tech/worker_signup"
+  },
+  "sync": {
+    "sources": [
+      "mercor",
+      "outlier",
+      "dataannotation"
+    ],
+    "keywords": [
+      "music",
+      "lyrics",
+      "audio",
+      "production",
+      "sound",
+      "composer",
+      "mix",
+      "master",
+      "studio",
+      "turkish",
+      "turkey",
+      "video creator",
+      "songwriter",
+      "musician",
+      "daw"
+    ],
+    "schedule": "0 */6 * * *"
+  },
+  "accentHue": 231
+}
