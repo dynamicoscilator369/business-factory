@@ -17,7 +17,7 @@ businesses/
 └── examples/
     └── talent-bench/          ← reference: job board (Mercor, forums, etc.)
 
-kernel/                        ← loads any business folder
+kernel/                        ← loads any business folder; Temporal pipeline Workflow
 orchestrator/                  ← EOS: Integrator, L10, earn/demote tiers
 grok-bots/                     ← org chart generator (3 → 111 bots)
 ```
@@ -38,9 +38,11 @@ class Pipeline(PipelineBase):
 
 ```bash
 ./new-business.sh my-idea "My Idea"     # copy _template
-python3 main.py pipeline my-idea      # workers produce
+python3 main.py pipeline my-idea        # in-process (no Temporal)
+python3 main.py start my-idea           # Temporal Workflow (Cloud)
+python3 main.py worker                  # Temporal Worker (Cloud)
 python3 main.py l10 my-idea             # management meeting
-./run-pipeline.sh my-idea               # Grok Bot routine
+./run-pipeline.sh my-idea               # Grok Bot routine (in-process)
 ```
 
 List businesses: `python3 main.py list`
@@ -73,6 +75,28 @@ python3 main.py l10 examples/talent-bench
 ```
 
 See `businesses/examples/talent-bench/` for a full sync → build → validate → distribute implementation.
+
+## Temporal Cloud (pipeline Workflow)
+
+Each stage (`sync`, `build`, `validate`, `distribute`) is a Temporal Activity. A crash mid-distribute retries that step only — it does not re-run earlier work. Existing `pipeline/run.py` methods are the implementations; businesses do not rewrite them.
+
+Connection settings come from the `cloud-setup` profile in env-config (`~/.config/temporalio/temporal.toml`, or `TEMPORAL_CONFIG_FILE`). The app loads that profile the same way Temporal's Python samples do (`temporalio.envconfig` + `TEMPORAL_PROFILE`). Do not put address, namespace, or API keys in this repo.
+
+```bash
+# once
+pip install -r requirements.txt          # or: uv pip install -r requirements.txt
+
+# optional — the Worker/starter already default to this profile
+export TEMPORAL_PROFILE=cloud-setup
+
+# Terminal 1 — Worker (needs the checkout so activities can load businesses/)
+python3 main.py worker
+
+# Terminal 2 — start a pipeline Workflow by business id
+python3 main.py start my-idea
+```
+
+`python3 main.py pipeline my-idea` still runs all four stages in-process without Temporal.
 
 ## Grok Bot
 

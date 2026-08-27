@@ -49,3 +49,16 @@ def load_pipeline(business_id: str):
     if not hasattr(mod, "Pipeline"):
         raise AttributeError(f"{run_path} must define class Pipeline")
     return mod.Pipeline(business_root(business_id), load_manifest(business_id))
+
+
+def record_pipeline_run(business_id: str) -> int:
+    """Increment businesses/<id>/.state/pipeline_runs.txt. Returns the new count."""
+    runs_file = business_root(business_id) / ".state" / "pipeline_runs.txt"
+    runs_file.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        n = int(runs_file.read_text().strip()) if runs_file.exists() else 0
+    except ValueError:
+        n = 0
+    n += 1
+    runs_file.write_text(str(n), encoding="utf-8")
+    return n
