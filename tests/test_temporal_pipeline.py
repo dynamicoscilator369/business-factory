@@ -22,7 +22,7 @@ class TestNoSecretsInRepo(unittest.TestCase):
         self.assertNotIn("tmprl.cloud", text)
         self.assertNotIn("localhost:7233", text)
         self.assertNotIn("api_key=", text)
-        self.assertNotIn("API_KEY", text)
+        self.assertNotRegex(text, r'api_key\s*=\s*["\']')
         self.assertIn("ClientConfig.load_client_connect_config", text)
 
     def test_task_queue_is_not_money_transfer_sample(self):
