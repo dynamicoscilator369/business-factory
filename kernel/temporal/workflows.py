@@ -10,6 +10,7 @@ with workflow.unsafe.imports_passed_through():
     from kernel.temporal.activities import (
         build,
         distribute,
+        publish,
         sync,
         validate,
         write_handoff,
@@ -28,7 +29,7 @@ _RETRY = RetryPolicy(
 
 @workflow.defn
 class PipelineWorkflow:
-    """sync → build → validate → distribute, then write ``.state/handoff.json``.
+    """sync → build → validate → distribute, then handoff + Hub bucket publish.
 
     Each stage is its own Activity. A crash in distribute retries only
     distribute — earlier stages are not re-executed (withdraw-style isolation).
@@ -68,4 +69,10 @@ class PipelineWorkflow:
             start_to_close_timeout=_HANDOFF_TIMEOUT,
             retry_policy=_RETRY,
         )
-        return {**steps, "handoff": handoff}
+        bucket = await workflow.execute_activity(
+            publish,
+            business_id,
+            start_to_close_timeout=_HANDOFF_TIMEOUT,
+            retry_policy=_RETRY,
+        )
+        return {**steps, "handoff": handoff, "bucket": bucket}

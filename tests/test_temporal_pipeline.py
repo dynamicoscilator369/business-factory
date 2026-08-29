@@ -150,6 +150,7 @@ class TestLocalPipelineStillWorks(unittest.TestCase):
         self.assertIn("start", help_text)
         self.assertIn("worker", help_text)
         self.assertIn("pipeline", help_text)
+        self.assertIn("publish", help_text)
 
 
 class TestWorkflowRetriesOnlyFailedStage(unittest.IsolatedAsyncioTestCase):
@@ -161,7 +162,14 @@ class TestWorkflowRetriesOnlyFailedStage(unittest.IsolatedAsyncioTestCase):
         from kernel.temporal.shared import TASK_QUEUE
         from kernel.temporal.workflows import PipelineWorkflow
 
-        counts = {"sync": 0, "build": 0, "validate": 0, "distribute": 0, "write_handoff": 0}
+        counts = {
+            "sync": 0,
+            "build": 0,
+            "validate": 0,
+            "distribute": 0,
+            "write_handoff": 0,
+            "publish": 0,
+        }
 
         @activity.defn(name="sync")
         def fake_sync(business_id: str) -> dict:
@@ -190,6 +198,11 @@ class TestWorkflowRetriesOnlyFailedStage(unittest.IsolatedAsyncioTestCase):
             counts["write_handoff"] += 1
             return f"/tmp/handoff-{business_id}.json"
 
+        @activity.defn(name="publish")
+        def fake_publish(business_id: str) -> dict:
+            counts["publish"] += 1
+            return {"skipped": False, "bucket": "demo/artifacts", "business": business_id}
+
         try:
             async with await WorkflowEnvironment.start_time_skipping() as env:
                 async with Worker(
@@ -202,6 +215,7 @@ class TestWorkflowRetriesOnlyFailedStage(unittest.IsolatedAsyncioTestCase):
                         fake_validate,
                         flaky_distribute,
                         fake_handoff,
+                        fake_publish,
                     ],
                     activity_executor=ThreadPoolExecutor(max_workers=4),
                 ):
@@ -220,9 +234,11 @@ class TestWorkflowRetriesOnlyFailedStage(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(counts["validate"], 1)
         self.assertEqual(counts["distribute"], 2)
         self.assertEqual(counts["write_handoff"], 1)
+        self.assertEqual(counts["publish"], 1)
         self.assertEqual(result["sync"], {"n": 1})
         self.assertEqual(result["distribute"], {"n": 2})
         self.assertTrue(str(result["handoff"]).endswith("handoff-acme.json"))
+        self.assertEqual(result["bucket"]["bucket"], "demo/artifacts")
 
 
 if __name__ == "__main__":

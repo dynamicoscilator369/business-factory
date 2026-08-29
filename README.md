@@ -41,6 +41,7 @@ class Pipeline(PipelineBase):
 python3 main.py pipeline my-idea        # in-process (no Temporal)
 python3 main.py start my-idea           # Temporal Workflow (Cloud)
 python3 main.py worker                  # Temporal Worker (Cloud)
+python3 main.py publish my-idea         # upload artifacts to HF Storage Bucket
 python3 main.py l10 my-idea             # management meeting
 ./run-pipeline.sh my-idea               # Grok Bot routine (in-process)
 ```
@@ -97,6 +98,19 @@ python3 main.py start my-idea
 ```
 
 `python3 main.py pipeline my-idea` still runs all four stages in-process without Temporal.
+
+## Hugging Face Storage Bucket
+
+After a successful run, artifacts (`handoff.json`, `outbox/`, `site/`, `jobs.json`) upload to your Hub bucket under `{business-id}/`. Auth is `HF_TOKEN` or `hf auth login` — never commit a token.
+
+```bash
+# optional — pin the bucket; otherwise the newest bucket on the logged-in account is used
+export HF_BUCKET=you/your-bucket
+
+python3 main.py publish my-idea
+```
+
+The Temporal Workflow calls this as a `publish` Activity after `write_handoff`. Local `python3 main.py pipeline` publishes automatically when a bucket can be resolved.
 
 ## Grok Bot
 

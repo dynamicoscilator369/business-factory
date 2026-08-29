@@ -9,6 +9,7 @@ from temporalio.worker import Worker
 from kernel.temporal.activities import (
     build,
     distribute,
+    publish,
     sync,
     validate,
     write_handoff,
@@ -28,7 +29,7 @@ async def run_worker() -> None:
         client,
         task_queue=TASK_QUEUE,
         workflows=[PipelineWorkflow],
-        activities=[sync, build, validate, distribute, write_handoff],
+        activities=[sync, build, validate, distribute, write_handoff, publish],
         activity_executor=ThreadPoolExecutor(max_workers=8),
     )
     await worker.run()

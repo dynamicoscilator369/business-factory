@@ -4,6 +4,7 @@ from __future__ import annotations
 from temporalio import activity
 
 from kernel.business import load_pipeline, record_pipeline_run
+from kernel.hf_bucket import publish_business
 from kernel.temporal.shared import PIPELINE_STAGES
 
 
@@ -49,6 +50,13 @@ def write_handoff(business_id: str, steps: dict) -> str:
     path = pipeline.write_handoff({"steps": steps})
     record_pipeline_run(business_id)
     return str(path)
+
+
+@activity.defn
+def publish(business_id: str) -> dict:
+    """Push handoff/outbox/site to the Hugging Face Storage Bucket."""
+    activity.logger.info("pipeline %s publish", business_id)
+    return publish_business(business_id, missing_ok=True)
 
 
 STAGE_ACTIVITIES = (sync, build, validate, distribute)

@@ -38,7 +38,18 @@ def cmd_pipeline(business_id: str) -> int:
     pipeline = load_pipeline(business_id)
     result = pipeline.run()
     record_pipeline_run(business_id)
+    from kernel.hf_bucket import publish_business, resolve_bucket_id
+
+    if resolve_bucket_id(load_manifest(business_id)):
+        result["bucket"] = publish_business(business_id)
     print(result)
+    return 0
+
+
+def cmd_publish(business_id: str) -> int:
+    from kernel.hf_bucket import publish_business
+
+    print(publish_business(business_id))
     return 0
 
 
@@ -92,6 +103,12 @@ def main() -> int:
     )
     p_start.add_argument("business", help="Business id (folder under businesses/)")
 
+    p_pub = sub.add_parser(
+        "publish",
+        help="Upload pipeline artifacts to the Hugging Face Storage Bucket",
+    )
+    p_pub.add_argument("business", help="Business id (folder under businesses/)")
+
     sub.add_parser(
         "worker",
         help="Run the Temporal Worker (cloud-setup profile, task queue business-factory-pipeline)",
@@ -109,6 +126,8 @@ def main() -> int:
         return cmd_pipeline(args.business)
     if args.cmd == "start":
         return cmd_start(args.business)
+    if args.cmd == "publish":
+        return cmd_publish(args.business)
     if args.cmd == "worker":
         return cmd_worker()
     if args.cmd == "l10":
