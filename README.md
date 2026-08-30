@@ -77,6 +77,8 @@ python3 main.py l10 examples/talent-bench
 
 See `businesses/examples/talent-bench/` for a full sync → build → validate → distribute implementation.
 
+A Hugging Face Space demo of that board lives in `spaces/talent-bench/` (Gradio search over a listing snapshot).
+
 ## Temporal Cloud (pipeline Workflow)
 
 Each stage (`sync`, `build`, `validate`, `distribute`) is a Temporal Activity. A crash mid-distribute retries that step only — it does not re-run earlier work. Existing `pipeline/run.py` methods are the implementations; businesses do not rewrite them.
