@@ -4,5 +4,7 @@ site/
 __pycache__/
 *.pyc
 .DS_Store
+.venv/
 orchestrator/__pycache__/
 orchestrator/state/*.jsonl
+temporal.toml
